@@ -1,4 +1,4 @@
-package vn.com.tech.solutions.leetcode.string;
+package vn.com.tech.solutions.leetcode.array;
 
 import org.apache.commons.lang3.time.StopWatch;
 

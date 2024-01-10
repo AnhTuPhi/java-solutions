@@ -1,0 +1,11 @@
+
+m
+java:S1192,"WDefine a constant instead of duplicating this literal "solutions done within " 3 times.(ÂÍö¿
+P
+java:S1854*":Remove this useless assignment to local variable "result".(œç –
+A
+java:S1481*"+Remove this unused "result" local variable.(œç –
+@	java:S106,"+Replace this use of System.out by a logger.(ÂÍö¿
+@	java:S106-"+Replace this use of System.out by a logger.(Êÿÿ½
+E	java:S106."+Replace this use of System.out by a logger.(îÄÆöþÿÿÿÿ
+@	java:S106@"+Replace this use of System.out by a logger.(Ò†¸Û
