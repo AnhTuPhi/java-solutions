@@ -1,4 +1,4 @@
-package vn.com.tech.solutions.leetcode.linkedlist;
+package vn.com.tech.solutions.leetcode;
 
 /**
  * @author : AnhTuPhi

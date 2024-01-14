@@ -1,4 +1,4 @@
-package vn.com.tech.solutions.leetcode.string;
+package vn.com.tech.solutions.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -56,27 +56,37 @@ public class RomanToInteger {
      * It is guaranteed that s is a valid roman numeral in the range [1, 3999].
      */
     public static void main(String[] args) {
-        System.out.println(romanToInt(new String("V")));
+        System.out.println(romanToInt("VI"));
     }
 
-    public static final Map<String, Integer> mapper = new HashMap<>(8);
+    public static final Map<Character, Integer> mapper = new HashMap<>(8);
 
     static {
         initHashMap();
     }
 
-    public static void initHashMap(){
-        mapper.put("I", 1);
-        mapper.put("V", 5);
-        mapper.put("X", 10);
-        mapper.put("L", 50);
-        mapper.put("C", 100);
-        mapper.put("D", 500);
-        mapper.put("M", 1000);
+    public static void initHashMap() {
+        mapper.put('I', 1);
+        mapper.put('V', 5);
+        mapper.put('X', 10);
+        mapper.put('L', 50);
+        mapper.put('C', 100);
+        mapper.put('D', 500);
+        mapper.put('M', 1000);
     }
 
     public static int romanToInt(String in) {
-        return mapper.get(in);
+        int length = in.length();
+        int result = 0;
+
+        for (var i = 0; i < length; i++) {
+            if (i < length - 1 && (mapper.get(in.charAt(i)) < mapper.get(in.charAt(i + 1)))) {
+                result -= mapper.get(in.charAt(i));
+            } else {
+                result += mapper.get(in.charAt(i));
+            }
+        }
+        return result;
     }
 
 }
