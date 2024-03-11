@@ -14,3 +14,9 @@ Contains Duplicate
 Add Two Numbers
 Majority Element
 Remove Duplicates from Sorted Array
+https://oauth.net/2/
+https://www.oauth.com/oauth2-servers/server-side-apps/example-flow/
+https://solr.apache.org/guide/6_6/query-screen.html
+https://kafka.apache.org/documentation/#georeplication-flows
+https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ThreadPoolExecutor.html
+https://viblo.asia/p/introduction-to-oauth2-3OEqGjDpR9bL
