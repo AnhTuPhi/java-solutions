@@ -54,28 +54,29 @@
 </details>
 <details>
   <summary>#9: Palindrome Number</summary>
-  Given an integer x, return true if x is a palindrome, and false otherwise.
-  Example 1:
-
-  Input: x = 121
-  Output: true
-  Explanation: 121 reads as 121 from left to right and from right to left.
-
-  Example 2:
-
-  Input: x = -121
-  Output: false
-  Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
   
-  Example 3:
-
-  Input: x = 10
-  Output: false
-  Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
-
-  Constraints:
-  -231 <= x <= 231 - 1
-  Follow up: Could you solve it without converting the integer to a string?
+    Given an integer x, return true if x is a palindrome, and false otherwise.
+    Example 1:
+  
+    Input: x = 121
+    Output: true
+    Explanation: 121 reads as 121 from left to right and from right to left.
+  
+    Example 2:
+  
+    Input: x = -121
+    Output: false
+    Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+    
+    Example 3:
+  
+    Input: x = 10
+    Output: false
+    Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+  
+    Constraints:
+    -231 <= x <= 231 - 1
+    Follow up: Could you solve it without converting the integer to a string?
 </details>
 <details>
   <summary>#13: Roman To Integer</summary>
@@ -121,4 +122,31 @@
       s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
       It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
+</details>
+
+<details>
+  <summary>#53: Maximum sub-array</summary>
+  
+    Given an integer array nums, find the subarray with the largest sum, and return its sum.
+    Example 1:
+  
+    Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+    Output: 6
+    Explanation: The subarray [4,-1,2,1] has the largest sum 6.
+    Example 2:
+    
+    Input: nums = [1]
+    Output: 1
+    Explanation: The subarray [1] has the largest sum 1.
+    Example 3:
+    
+    Input: nums = [5,4,-1,7,8]
+    Output: 23
+    Explanation: The subarray [5,4,-1,7,8] has the largest sum 23.
+     
+    Constraints:
+    1 <= nums.length <= 105
+    -104 <= nums[i] <= 104
+  
+    Follow up: If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 </details>
